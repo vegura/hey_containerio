@@ -1,0 +1,28 @@
+version: "3"
+services: 
+  lab1_nginx_sample:
+    container_name: lab1_nginx
+    image: nginx:latest
+    volumes: 
+      - ./templates:/etc/nginx/templates
+    ports:
+      - 80:80
+
+
+  lab1_lite_server:
+    container_name: lab1_lite_server
+    image: node:latest
+    user: "node"
+    working_dir: /home/node/lab1
+    volumes: 
+      - ./lite_server_res:/home/node/lab1
+    command: "npm run dev"
+
+  lab1_json-server:
+    container_name: lab1_json_server
+    image: node:latest
+    user: "node"
+    working_dir: /home/node/lab1
+    volumes: 
+      - ./json_server_res:/home/node/lab1
+    command: "npm run dev"

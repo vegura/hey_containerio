@@ -1,0 +1,19 @@
+version: "3"
+services: 
+  lab1_json_server:
+    # image: onetwostory/songs_json_server:1.0
+    image: node:latest
+    user: "node"
+    working_dir: /home/node/lab1
+    environment: 
+      - NODE_ENV=development
+      - DB_HOST=json-server
+    volumes:
+      - ./:/home/node/lab1
+    expose: 
+      - "8081"
+    ports: 
+      - "3000:3000"
+      - "3001:3001"
+      - "8082:8082"
+    command: "npm run dev"

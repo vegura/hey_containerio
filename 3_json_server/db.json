@@ -1,0 +1,25 @@
+{
+    "songs": [
+        {   
+            "id": 1, 
+            "name": "WAP",
+            "author": "Cardi B",
+            "lyrics": "Now from the top, make it drop, that's some wet a...",
+            "link": "https://youtu.be/hsm4poTWjMs"
+        },
+        {
+            "id": 2, 
+            "name": "Танці",
+            "author": "ВВ",
+            "lyrics": "Лягає день... Він віддає свої надії ночі... Робітники, заморились працювати",
+            "link": "https://youtu.be/xXhHRswp0GU"
+        },
+        {
+            "id": 3, 
+            "name": "Gypsy Women - slowed + reverb",
+            "author": "Crystal Waters",
+            "lyrics": "La da di la di da",
+            "link": "https://youtu.be/bTFWvpY8nSw"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+version: "3"
+
+services:
+  lab1_hello_world:
+    image: hello-world
