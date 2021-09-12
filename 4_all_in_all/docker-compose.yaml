@@ -18,7 +18,7 @@ services:
       - ./lite_server_res:/home/node/lab1
     command: "npm run dev"
 
-  lab1_json-server:
+  lab1_json_server:
     container_name: lab1_json_server
     image: node:latest
     user: "node"

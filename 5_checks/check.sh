@@ -7,7 +7,7 @@ docker container exec lab1_json_server curl -X GET http://localhost:3000/songs/
 docker container exec -it lab1_json_server curl -X POST http://localhost:3000/songs \
    -H 'Content-Type: application/json' \
    -d '{ 
-    "id": 4, 
+    "id": 5, 
     "name": "White ferry",
     "author": "Yuriy Antonov",
     "lyrics": "Ах белій теплоход...Бегущая вода...",
