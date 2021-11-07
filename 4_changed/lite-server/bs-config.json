@@ -1,0 +1,6 @@
+{
+	"server": {"baseDir": "/home/lab1/"},
+	"files": ["./index.html"],
+	"port": 3000
+
+}
